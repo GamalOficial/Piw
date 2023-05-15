@@ -1,0 +1,27 @@
+import React, { useState } from 'react';
+
+// Com o useState, é possível criar um estado que permita a variação dos sprites do pokemon
+// Além disso, o botão chama a função setFrente(), que inverte o valor do Frente. Dessa forma,
+// alterando os sprites do pikachu.
+
+const Questao02 = () => {
+  const [Frente, setFrente] = useState(true);
+
+  const Botao = () => {
+    setFrente(!Frente);
+  };
+
+  const CaminhoImg = Frente
+     'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png'
+    
+
+  return (
+    <div>
+      <img src={CaminhoImg} />
+      <button onClick={Botao}>Virar Sprite</button>
+    </div>
+  );
+};
+
+export default Questao02;
+
