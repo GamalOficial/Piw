@@ -1,0 +1,11 @@
+
+Props drilling é quando as propriedades são passadas manualmente para os componentes. O uso de componentes faz com
+que as propriedades não precisem ser passadas manualmente para cada componente na hierarquia.
+
+O uso de contexto resolve o problema de Props Drilling pelo motivo de que
+contexto passa dados pelos componentes sem precisar passar os props em cada nível
+organizacional. Evitando ruído e códigos que virtualmente não são usados.
+
+
+
+
