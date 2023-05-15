@@ -1,0 +1,23 @@
+import Questao01x from "./QUESTAO01X"
+// Por meio do useEffect, a Questão01y é responsável por calcular a média dos alunos fornecidos
+// pelo array. Dessa forma, a Questão01y retorna a media para a Questão01x.
+const Questao01y = () => {
+    <Questao01x/>
+
+
+    useEffect(
+        ()=>{
+            for(i=0;alunos<3;i++){
+                media = (ap1 + ap2)/2
+                console.log(media)
+            }
+            
+        }
+        
+    )
+    
+
+}
+
+
+export default Questao01y
